@@ -43,7 +43,7 @@ def load_project_management_info(url):
         st.stop()
 
 # URL del archivo JSON en GitHub
-json_url = "https://github.com/Vansik4/PV-ai/blob/main/PV%20(1).json"
+json_url = "https://raw.githubusercontent.com/Vansik4/PV-ai/main/PV%20(1).json"
 
 # Cargar la información del proyecto
 project_info = load_project_management_info(json_url)
