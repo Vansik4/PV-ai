@@ -62,9 +62,7 @@ initial_prompt = (
 if not st.session_state.messages:
     st.session_state.messages.append({"role": "system", "content": initial_prompt})
     with st.chat_message("assistant"):
-        st.markdown("I am a virtual assistant specializing in project management. "
-                    "You can ask me questions about project management, "
-                    "important dates, team members, budget, and more.")
+        st.markdown("I am a virtual assistant specializing in OTIF")
 
 # Display chat history
 st.header("Chat History")
